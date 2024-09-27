@@ -1,0 +1,26 @@
+{
+    "cmake.statusbar.advanced": {
+        "debug": {
+            "visibility": "hidden"
+        },
+        "launch": {
+            "visibility": "hidden"
+        },
+        "launchTarget": {
+            "visibility": "hidden"
+        }
+    },
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+        "*.html": "django-html",
+        "stc89xx.h": "c",
+        "compiler.h": "c",
+        "stdio.h": "c",
+        "lint.h": "c",
+        "lcd1602.h": "c",
+        "timer.h": "c"
+    }
+}

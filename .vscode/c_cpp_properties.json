@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "mcs51",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/tool",
+                "D:/SDCC/include/mcs51"
+            ],
+            "defines": [
+                "__SDCC_mcs51_lint=1",
+                ""
+            ],
+            "compilerPath": "D:/SDCC/bin/sdcc.exe", // change this to your SDCC installation path
+            "cStandard": "c11"
+        }
+    ],
+    "version": 4
+}
