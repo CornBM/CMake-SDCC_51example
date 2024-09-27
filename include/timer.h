@@ -6,7 +6,7 @@
 // 配置
 #define F_CPU 11059200L // 11.0592MHz
 #define TIM_1MS (65536-F_CPU/12/1000)   // 1ms
-#define MS_COUNT 1000 // 200x1ms
+#define MS_COUNT 200 // 200x1ms
 
 #define EXT0_VECTOR 0  /* 0x03 external interrupt 0 */
 #define TIM0_VECTOR 1  /* 0x0b timer 0 */
