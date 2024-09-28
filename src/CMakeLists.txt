@@ -1,6 +1,5 @@
 # 查找所有的源文件
 aux_source_directory(. C_SRCS)
-
 # 生成可执行文件，名字为项目名
 add_executable(${PROJECT_NAME} ${C_SRCS})
 

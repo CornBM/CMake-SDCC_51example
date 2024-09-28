@@ -4,10 +4,14 @@
 #define __LCD1602_H__
 
 //引脚配置：
-#define LCD_RS P26
-#define LCD_RW P25
-#define LCD_EN P27
-#define LCD_DataPort P0
+#define LCD_RS P36
+#define LCD_RW P35
+#define LCD_EN P34
+#define LCD_DataPort P2
+// set if you use pin to control LCD backlight and contrast ratio
+#define LCD_V0 P37
+#define LCD_A P07
+#define LCD_K P06
 
 //用户调用函数：
 void LCD_Init();
